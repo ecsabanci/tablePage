@@ -1,0 +1,48 @@
+body {
+    background: rgb(235, 235, 250);
+}
+
+.List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    td,th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+}
+
+
+.Actions {
+    button {
+        color: #fff;
+        width: 70px;
+        border: 1px solid #0000;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    &-Edit-button {
+        background: rgb(61, 149, 221);
+        margin-right: 5px;
+    }
+    &-Delete-button {
+        background: rgb(185, 5, 5);
+    }
+}
+
+.Status {
+    cursor: pointer;
+}
